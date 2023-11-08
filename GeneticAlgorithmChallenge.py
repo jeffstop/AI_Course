@@ -13,3 +13,10 @@ def generate_population():
         population.append(individual)
     return population
 
+def calculate_fitness(individual):
+    score = 0
+    for i in range(len(TARGET_PHRASE[i])):
+        if individual[i] == TARGET_PHRASE[i]:
+            score += 1
+    return score
+
