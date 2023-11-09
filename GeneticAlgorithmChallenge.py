@@ -2,8 +2,8 @@ import random
 
 # Constants || Target phrase to be matched, num of individuals in pop, probability of mutation
 TARGET_PHRASE = "Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away."
-POPULATION_SIZE = 100
-MUTATION_RATE = 0.01
+POPULATION_SIZE = 250
+MUTATION_RATE = 0.02
 
 # Generate initial population
 def generate_population():
