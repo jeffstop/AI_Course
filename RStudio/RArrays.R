@@ -33,3 +33,4 @@ data_frame <- data.frame(
   Married = c(TRUE, FALSE, TRUE)
 )
 print(data_frame)
+
