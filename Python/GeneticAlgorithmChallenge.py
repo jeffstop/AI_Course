@@ -1,7 +1,7 @@
 import random
 
 # Constants || Target phrase to be matched, num of individuals in pop, probability of mutation
-TARGET_PHRASE = "Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away."
+TARGET_PHRASE = "Testing is all we do."
 POPULATION_SIZE = 250
 MUTATION_RATE = 0.02
 
