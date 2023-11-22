@@ -18,3 +18,30 @@ plot(x1, y1, main = "Observation of Cars", xlab = "Car Age", ylab = "Car Speed",
 
 # Add points for the scatter plot of car age and speed for day two, with customized settings
 points(x2, y2, col = "blue", cex = 2)
+
+# Create a vector of pies
+x <- c(12, 18, 24, 30)
+
+# Create a vector of labels
+mylabel <- c("Oranges", "Pineapples", "Grapes", "Watermelons")
+
+# Display the pie chart with labels
+pie(x, label = mylabel, main = "Fruit Distribution")
+
+# x-axis values
+x <- c("E", "F", "G", "H")
+
+# y-axis values
+y <- c(3, 5, 7, 9)
+
+# Generate a vertical bar chart with four bars, labeled E, F, G, and H
+barplot(y, names.arg = x)
+
+# Change color of the bars to blue, enhancing the visual representation
+barplot(y, names.arg = x, col = "blue")
+
+# Modify the density parameter to create a different texture for the bars
+barplot(y, names.arg = x, density = 5)
+
+# Modify the width parameter to create bars of varying sizes for a distinct visual effect
+barplot(y, names.arg = x, width = c(2, 3, 4, 5))
